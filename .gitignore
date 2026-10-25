@@ -1,0 +1,33 @@
+# Maven build output
+target/
+
+# Java compiled files
+*.class
+
+# IDE files
+.settings/
+.project
+.classpath
+.idea/
+*.iml
+.vscode/
+
+# Uploaded documents
+uploads/
+
+# Local H2 database files
+campusconnect_data/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+src/main/resources/db.properties
